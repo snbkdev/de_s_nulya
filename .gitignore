@@ -1,0 +1,149 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+*.pyi
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.dump
+postgresql.conf
+pg_hba.conf
+pg_ident.conf
+*.pid
+*.log
+
+# ClickHouse
+clickhouse-data/
+clickhouse-logs/
+
+# Spark / pySpark
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+spark-defaults.conf
+log4j.properties
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+airflow-scheduler.pid
+airflow-webserver-monitor.pid
+airflow-worker.pid
+.airflow/
+webserver_config.py
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+config.env
+secrets.env
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.orc
+*.avro
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.feather
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tgz
+
+# DWH / ETL
+dwh/
+warehouse/
+etl/
+tmp/
+temp/
+*.tmp
+
+# Git
+*.orig
+*.rej
+.gitignore~
+.gitattributes~
+.gitmodules~
+.git/
+
+# OS
+Thumbs.db
+.DS_Store
+*.localized
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+.docker/
+docker-data/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+info.txt
