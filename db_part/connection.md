@@ -19,6 +19,6 @@
  - psql -U gpadmin -d postgres -h localhost -p 5433
 
 Для постоянного хранения данных добавьте volume:
- - docker run --name greenplum -p 5432:5432 -v greenplum_data:/data -d andruche/greenplum:7
+ - docker run --name greenplum -p 5433:5432 -v greenplum_data:/data -d andruche/greenplum:7
 
 *************************************************************************************************************
