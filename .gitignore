@@ -147,3 +147,4 @@ docker-data/
 terraform.tfvars
 
 info.txt
+conf_airflow.txt

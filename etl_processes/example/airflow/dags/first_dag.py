@@ -1,4 +1,4 @@
-from etl_processes.example.airflow.dags.first_dag import DAG
+from airflow import DAG
 from airflow.utils.dates import days_ago
 from datetime import timedelta
 import logging
