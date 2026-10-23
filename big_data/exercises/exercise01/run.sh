@@ -34,3 +34,12 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \
 # -file /tmp/mapreduce/mapper.py -mapper /tmp/mapreduce/mapper.py \
 # -file /tmp/mapreduce/reducer.py -reducer /tmp/mapreduce/reducer.py \
 # -input /user/root/input-data -output $MR_OUTPUT
+
+
+# hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \
+# -Dmapred.job.name='Taxi streaming job' \
+# -Dmapred.reduce.tasks=20 \
+# -Dmapreduce.map.memory.mb=1024 \
+# -file /tmp/mapreduce/mapper.py -mapper /tmp/mapreduce/mapper.py \
+# -file /tmp/mapreduce/reducer.py -reducer /tmp/mapreduce/reducer.py \
+# -input /user/root/2019 -output taxi-output
